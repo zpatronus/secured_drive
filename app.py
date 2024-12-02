@@ -62,32 +62,8 @@ def secured_drive():
                 <!doctype html>
                 <html>
                 <head>
-                    <style>
-                        body {
-                            font-family: Arial, sans-serif;
-                            background-color: #f8f9fa;
-                            text-align: center;
-                            padding: 50px;
-                        }
-                        .container {
-                            background: white;
-                            padding: 20px;
-                            border-radius: 8px;
-                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                            max-width: 400px;
-                            margin: auto;
-                        }
-                        h1 {
-                            color: #dc3545;
-                        }
-                        a {
-                            color: #007bff;
-                            text-decoration: none;
-                        }
-                        a:hover {
-                            text-decoration: underline;
-                        }
-                    </style>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 </head>
                 <body>
                     <div class="container">
@@ -117,44 +93,8 @@ def secured_drive():
         <!doctype html>
         <html>
         <head>
-            <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    background-color: #f8f9fa;
-                    text-align: center;
-                    padding: 50px;
-                }
-                .container {
-                    background: white;
-                    padding: 20px;
-                    border-radius: 8px;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    max-width: 400px;
-                    margin: auto;
-                }
-                h1 {
-                    color: #343a40;
-                }
-                input[type="password"] {
-                    padding: 10px;
-                    margin-top: 10px;
-                    width: calc(100% - 24px);
-                    font-size: 16px;
-                }
-                button {
-                    background-color: #007bff;
-                    color: white;
-                    border: none;
-                    padding: 10px 20px;
-                    margin-top: 10px;
-                    border-radius: 4px;
-                    font-size: 16px;
-                    cursor: pointer;
-                }
-                button:hover {
-                    background-color: #0056b3;
-                }
-            </style>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
         <body>
             <div class="container">
