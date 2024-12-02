@@ -26,7 +26,7 @@ if not os.path.exists(DB_FILE):
     conn.close()
 
 
-@app.route("/secured_drive", methods=["GET", "POST"])
+@app.route("/secured_drive/", methods=["GET", "POST"])
 def secured_drive():
     filename = request.args.get("filename")
     password = request.args.get(
